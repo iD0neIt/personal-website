@@ -6,8 +6,7 @@ data "aws_route53_zone" "my_domain" {
 resource "aws_acm_certificate" "website" {
     provider = aws.acm
     
-    domain_name       = var.domain
-    subject_alternative_names = ["*.${var.domain}"]
+    domain_name       = "www.${var.domain}"
     validation_method = "DNS"
 }
 
