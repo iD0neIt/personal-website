@@ -108,8 +108,47 @@ body {
     font-size: 16px;
 }
 
+#popup-button {
+    background: none;
+    border: none;
+    padding-bottom: 4.5px;
+}
+
+#popup-button:hover {
+    cursor: pointer;
+}
+
 .posts__post-link:hover {
     filter: brightness(125%);
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vw;
+    background-color: #000000b3;
+    z-index:1;
+    display: none;
+}
+
+.popup .architecture-diagram {
+    position:absolute;
+    top:60%;
+    left:50%;
+    right:50%;
+    transform:translate(-50%,-50%) scale(0);
+    z-index:2;
+}
+
+.popup.active .overlay {
+    display:block;
+}
+
+.popup.active .architecture-diagram {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
 }
 
 .footer {
