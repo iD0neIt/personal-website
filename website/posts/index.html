@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../styles/posts/main.css"/>
     <title>From A Software Engineer</title>
     <link rel="shortcut icon" type="image/png" href="../images/cloud-computing-50.png"/>
+    <script type="text/javascript" src="../scripts/popup.js"></script>
 </head>
 <body>
     <header class="navbar">
@@ -29,9 +30,9 @@
                 <h3 class="posts__post-title">
                     Associate Software Engineer
                 </h3>
-                <div class="posts__post-content">
+                <p class="posts__post-content">
                     My experience as an Associate Software Engineer, as well as some advice.
-                </div>
+                </p>
                 <a class="posts__post-link" href="experience/index.html">
                     View Post
                 </a>
@@ -40,16 +41,18 @@
                 <h3 class="posts__post-title">
                     buildingontheclouds.com
                 </h3>
-                <div class="posts__post-content">
+                <p class="posts__post-content">
                     The AWS infrastructure hosting this website.
-                    <br>
-                    (my first ever website)
-                </div>
-                <a class="posts__post-link">
-                    Coming Soon!
-                </a>
+                </p>
+                <button class="posts__post-link" id="popup-button" onclick="popUp()">
+                    Architecture
+                </button>
             </div>
         </div>
+        <div class="popup" id="popup-1">
+            <div class="overlay" onclick="popUp()"></div>
+            <img class="architecture-diagram" id="architecture" src="../images/static-website-architecture.png" alt="architecture for this website"/>
+        </div>    
     </main>
     <footer class="footer">
         <div class="footer__content">
