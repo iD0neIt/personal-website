@@ -11,7 +11,7 @@ https://www.buildingontheclouds.com
 3. Add more posts.
 
 ## Future Posts
-* AWS SSM Session Manager - if you are using bastion hosts, it is time to stop using them and use AWS SSM Session Manager instead!
+* AWS SSM Session Manager - if you are using bastion hosts, it is time to stop using them and use AWS SSM Session Manager instead.
 * Getting started with Kubernetes on AWS - AWS EKS using *eksctl*.
 * Boto3 and Sessions - looking at the AWS SDK for Python in detail.
 * Formatting the AWS Lambda function logs.
