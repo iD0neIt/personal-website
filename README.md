@@ -2,7 +2,7 @@
 
 https://www.buildingontheclouds.com
 
-**NOTE**: This website is currently not responsive - please view using a computer or laptop.
+**NOTE**: This website is currently not responsive - please view on desktop.
 
 ## To Do
 
