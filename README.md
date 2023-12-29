@@ -12,6 +12,7 @@ https://www.buildingontheclouds.com
 
 ## Future Posts
 * AWS SSM Session Manager - if you are using bastion hosts, it is time to stop using them and use AWS SSM Session Manager instead!
+* Getting started with Kubernetes on AWS - AWS EKS using *eksctl*.
 * AWS Chalice - write serverless apps in Python and quickly deploy them.
 * Formatting the AWS Lambda function logs.
 * Testing Terraform using the *test* command.
